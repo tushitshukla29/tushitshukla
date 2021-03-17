@@ -1,5 +1,9 @@
 body{
     background-image: url("SsRWfy.jpg");
+    margin: 0;
+    padding: 0;
+ 
+    background-size: cover;
 }
 *{
     margin: auto;
@@ -7,6 +11,16 @@ body{
     box-sizing: border-box;
     font-family: 'Akaya Telivigala', cursive;
     font-family: 'Zilla Slab', serif;
+}
+@viewport{
+    zoom: 1.0;
+    width: extent-to-zoom;
+
+}
+@-ms-viewport{
+    zoom: 1.0;
+    width: extent-to-zoom;
+
 }
 ul{
     list-style: none;
